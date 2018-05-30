@@ -1,6 +1,6 @@
 #!/bin/bash
 
-copied=$(python -c "import sys; sys.stdout.write(u'\u200b'.join(sys.argv[1]).encode('utf-8'))" "$@")
+copied=$(python -c "import sys; sys.stdout.write(u'\u200b'.join(sys.argv[1].decode('utf-8')).encode('utf-8'))" "$@")
 
 if which pbcopy >/dev/null
 then
