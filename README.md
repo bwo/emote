@@ -28,7 +28,7 @@ Hipchat replacing :| with a face with its mouth a straight line, but
 only the former replacing :/ with anything.) You might not think that
 a yellow circle with horizontally disposed eyes and a horizontal line
 for a mouth would be less evocative and more concrete in what it
-suggests than the vertically disposed eyes and vertical line for a
+does evoke than the vertically disposed eyes and vertical line for a
 mouth of ":|", but such, I report, is my experience; the different
 graphical realizations of the nonplussed face suggest in each case
 something different, but they each suggest something particular, in
@@ -49,6 +49,19 @@ using the `clipboard` selection (which allows the contents to be
 pasted using ctrl-V, rather than the middle mouse button). I use this
 with `dmenu` on linux and (so far) just from the terminal on osx, but
 I'm sure there's a convenient way to use it there too.
+
+Regrettably, since many of the most emotional characters on the
+keyboard are also special to the shell, usability takes a bit of a
+hit; one must type:
+
+    emote ':|'
+    
+rather than:
+
+    emote :|                                                                               
+                                                                                 
+But such is our sublunary world.
+
 
 [1] Or rather, between each whatever-it-is that one iterates through
 when iterating through unicode in Python. 
